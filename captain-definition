@@ -3,5 +3,5 @@
 
  {
   "schemaVersion": 2,
-  "templateId": "mltandocker/kalilinux-metaploits"
+  "imageName": "mltandocker/kalilinux-metaploits"
  }
