@@ -1,7 +1,15 @@
 
 
 
+
  {
   "schemaVersion": 2,
-  "imageName": "mltandocker/kalilinux-metaploits"
+  "dockerfileLines": [
+                        "FROM mltandocker/kalilinux-metaploits",
+                        "RUN mkdir -p /usr/src/app",
+                        "WORKDIR /usr/src/app",
+                        "COPY ./package.json /usr/src/app/",
+                        "RUN adb server && docker-compose up ",
+                       
+                    ]
  }
