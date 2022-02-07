@@ -1,8 +1,7 @@
 
+
+
  {
   "schemaVersion": 2,
-  "dockerfileLines": [
-                        "FROM dubirajara/kalilinux-metasploit-framework",
-                       
-                    ]
+  "templateId": "dubirajara/kalilinux-metasploit-framework"
  }
